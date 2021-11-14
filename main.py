@@ -23,4 +23,5 @@ def face():
     return {"faces": faces}
 
 
-app.run()
+if __name__ == "__main__":
+    app.run()
